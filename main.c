@@ -1,5 +1,10 @@
 #include <stdio.h>
+#include "main.h"
 
 int main() {
-    printf("Hello Git Workshop\n");
+	if (PI > 3) {
+		printf("I Like Pi\n");
+	} else {
+		printf("No Pi For You\n");
+	}
 }
